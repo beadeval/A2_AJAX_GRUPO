@@ -1,0 +1,45 @@
+/*Damos forma al encabezado de la web*/
+h2 {
+    font-family: Tahoma;
+    color:rgb(249, 249, 249);
+    border: #4e210b 1px solid;
+    width: 850px;
+    background-color: rgb(225, 10, 10);
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*Estilos para el form*/
+form {
+    font-family: Tahoma;
+    color:rgb(243, 234, 234);
+    padding-top: 10px;
+    border: #4e210b 1px solid;
+    width: 850px;
+    background-color: rgba(220, 108, 17, 0.703);
+    margin: auto;
+    text-align: center;
+}
+
+/*Estilos para los campos de texto*/
+.datos label {
+    display: block;
+    margin-bottom: 10px;
+  
+}
+
+/*Estilos para los radio button y checkbox*/
+.tamanopizza {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.ingredientes {
+    margin-bottom: 10px;
+}
+
+.div_DOM{
+    display: block;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzeria</title>
+    <!-- Vinculación al .css -->
+    <link rel="stylesheet" href="pizzeria.css" />
+
+    <!-- Vinculación al .js (evitamos tener JS en el fichero html como buena práctica) -->
+    <script type="text/javascript" src="pizzeria.js"></script>
+  </head>
+
+  <body>
+    <h2 style="background-image: url('encabezado.avif');">Realiza tu pedido </h2>
+    
+    <form id="form">
+      <!-- Formulario -->
+      <!-- Creación de los campos de texto/teléfono/mail,
+        dontándoles del tipo de etiqueta, id y nombre-->
+      <div class="datos">
+        <label for="nombre">Nombre y apellidos:</label>
+        <input type="text" id="nombre" name="nombre" />
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" />
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <br/>
+      <div id="div_DOM"></div>
+      <br/>
+      <!-- Creación de button para "proceso de envío" sin envío al servidor-->
+      <button id="refrescarJson"  >Refrescar</button>
+
+      <!-- Arrojamos el precio total del pedido en el caso de que se haya validado el formulario 
+            -->
+      <button id="calcularPrecio">Calcular</button>
+      <p id="precioTotal"></p>
+    </form>
+  </body>
+</html>

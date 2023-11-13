@@ -1,0 +1,31 @@
+{
+  "pizza": {
+    "tamanos": [
+      {
+        "Pequeña": 5,
+        "Mediana": 10,
+        "Grande": 15,
+        "Familiar": 20,
+        "Individual": 8,
+        "Gigante": 25
+      }
+    ]
+  },
+
+  "ingredientes": [
+    {
+      "Tomate": 1,
+      "Queso": 2,
+      "Bacon": 3,
+      "Barbacoa": 3,
+      "Jamon": 2,
+      "Piña": 2,
+      "Champiñón": 2,
+      "Alcaparras": 1,
+      "Jamón Serrano": 3,
+      "Albahaca": 1,
+      "Maiz": 1,
+      "Pepperoni": 3
+    }
+  ]
+}
